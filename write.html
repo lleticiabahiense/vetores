@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let quantidade = 0;
+        document.write("sistema de cadastro");
+        let resp = prompt("deseja cadastrar cliente? digite S ou N");
+        while (resp == "s"|| resp=="S"){
+            let nome = prompt("digite o nome do cliente:");
+            quantidade++;
+            resp = prompt("deseja continuar no cadastro? digite S ou N");
+        }
+document.write("<br><br> total de cadastrados = "+quantidade);
+document.write("<br><br>cadastro finalizdo!");
+
+
+
+
+
+
+
+
+        //marcação "br" pula linha no navegador.
+        //a marcação "br" cada vez que é usada pula uma linha. Ex.: tres "br" pulam tres linhas.
+        // sempre deve ser digitada assim: <br>
+    </script>
+</body>
+</html>

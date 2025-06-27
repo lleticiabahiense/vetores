@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let bim_1 = Number(prompt("digite a sua nota do primeiro bimestre"));
+        let bim_2 = Number(prompt("digite sua nota do segundo bimestre"));
+        let bim_3 = Number(prompt("digite sua nota do terceiro bimestre"));
+        let bim_4 = Number(prompt("digite sua nota do quarto bimestre"));
+        let media = (bim_1 + bim_2 + bim_3 + bim_4) /4;
+        if (media>=6){
+            alert("aluno aprovado! média "+media);
+        }
+        else if (media>=3){
+            alert("aluno em recuperação! média "+media);
+        }else{
+            alert("aluno reprovado! média "+media);
+        }
+
+        // o IF executa a função de condição.
+        //ele, geralmente, vem acompanhado do ELSE, pois costuma dar duas ou mais condições finais para o programa.
+        // ELSE tem o mesmo sentido das palavras "senão" e "ou".
+        // o número de condições utilizadas para o ELSE e o IF é ilimitada, sendo definido pelo programador a partir do que se deseja para o programa.
+
+    </script>
+</body>
+</html>

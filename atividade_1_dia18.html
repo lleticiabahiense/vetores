@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota_teste = Number(prompt("digite sua nota no teste"));
+        let nota_prova = Number(prompt("digite sua nota na prova"));
+        let media = (nota_teste + nota_prova) / 2;
+        if (media < 4){
+            alert("aluno reprovado!");
+        }
+        else if (media > 7 ){
+            alert("aluno aprovado direto! média");
+        }
+        else if (media > 4 && media < 7){
+            alert("aluno em recuperação");
+        }
+        let recuperacao = Number(prompt("digite sua nota na recuperação"));
+        if (recuperacao < 5){
+            alert("reprovado na recuperação");
+        }
+        else{
+            alert("aprovado na recuperação");
+        }
+    </script>
+</body>
+</html>

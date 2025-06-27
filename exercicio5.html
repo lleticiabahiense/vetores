@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let salario = Number(prompt("digite seu salario"));
+        let desconto_vale_transporte = ((6/100) * salario);
+        let salario_com_desconto_do_vt = (salario - desconto_vale_transporte);
+
+        let desconto_do_plano_de_saude = ((3/100) * salario);
+        let salario_com_desconto_ps = (salario - desconto_do_plano_de_saude);
+        
+        let salario_total_com_desconto = (salario - desconto_vale_transporte - desconto_do_plano_de_saude);
+        alert ("seu salario líquido é de "+salario_total_com_desconto+" reais");
+        
+        
+
+    </script>
+</body>
+</html>
